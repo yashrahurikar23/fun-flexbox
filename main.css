@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding:0;
+}
+.red{
+    background-color: #ffcdd2;
+}
+.green{
+    background-color: #66bb6a;
+}
+.yellow{
+    background-color: #ffee58;
+}
+.white{
+    background-color: white;
+}
+
+/* Default view height and view width */
+.vhvw-1{
+    width: 100vw;
+    height:100vh;
+}
+
+/* Default width 100% */
+.width-100{
+    width: 100%;
+}
+.height-100{
+    height: 100%;
+}
+
+/* Default width and height */
+.wh-1{
+    width: 5rem;
+    height: 5rem;
+}
+
+/* Default Margins */
+.m-1{
+    margin: 0.5rem;
+}
+.m-2{
+    margin: 1rem;
+}
+
+/* Default Padding */
+.p-1{
+    padding: 0.5rem;
+}
+.p-2{
+    padding: 1rem;
+}
+
+/* Box shadow */
+.box-shadow{
+    box-shadow:0 4px 12px 0 rgba(0, 0, 0, 0.05)
+}
+
+/* Border Radius default */
+.border-radius{
+    border-radius:5%;
+}
+
+/* Display flex helper classes */
+.flex-container{
+    display: flex;
+}
+.flex-container-inline{
+    display: inline-flex;
+}
+
+/* Flex helper classes */
+.flex-1{
+    flex:1;
+}
+.flex-2{
+    flex:2;
+}
+.flex-3{
+    flex:3;
+}
+
+/* Flex Direction helper classes */
+.row{
+    flex-direction:row;
+}
+.column{
+    flex-direction:column;
+}
+
+/* Justify Content helper classes */
+.justify-content-flex-start{
+    justify-content: flex-start;
+}
+.justify-content-flex-end{
+    justify-content: flex-end;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.justify-content-space-around{
+    justify-content: space-around;
+}
+.justify-content-space-evenly{
+    justify-content: space-evenly;
+}
+
+
+/* Align Items helper classes */
+.align-items-strech{
+    align-items:stretch;
+}
+.align-items-flex-start{
+    align-items:flex-start;
+}
+.align-items-flex-end{
+    align-items:flex-end;
+}
+.align-items-center{
+    align-items:center;
+}
+.align-items-baseline{
+    align-items:baseline;
+}
+
+/* Align Content helper classes */
+.align-content-flex-start{
+    align-content:flex-start;
+}
+.align-content-flex-end{
+    align-content:flex-end;
+}
+.align-items-center{
+    align-content:center;
+}
+.align-content-space-between{
+    align-content:space-between;
+}
+.align-content-space-around{
+    align-content:space-around;
+}
+.align-content-stretch{
+    align-content:stretch;
+}
+
+/* Align Self helper classes */
+.align-self-auto{
+    align-self: auto;
+}
+.align-self-flex-start{
+    align-self: flex-start;
+}
+.align-self-flex-end{
+    align-self: flex-end;
+}
+.align-self-center{
+    align-self: center;
+}
+.align-self-baseline{
+    align-self: baseline;
+}
+.align-self-stretch{
+    align-self: stretch;
+}

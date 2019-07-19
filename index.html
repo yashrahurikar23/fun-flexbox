@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fun with flexbox</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+	<div class="flex-container column">
+		<div class="flex-container">
+			<div class="flex-container flex-3 row p-1 align-items-center">
+				<div class="flex-1 m-1 red wh-1"></div>
+				<div class="flex-2 m-1 green wh-1"></div>
+				<div class="flex-3 m-1 yellow wh-1"></div>
+			</div>
+			<div class="flex-container flex-1 column m-1">
+				<div class="flex-1 m-1 red"><p class="p-1">Red</p></div>
+				<div class="flex-1 m-1 green"><p class="p-1">Green</p></div>	
+				<div class="flex-1 m-1 yellow"><p class="p-1">Yellow</p></div>
+			</div>
+		</div>
+
+		<div class="flex-container">
+			<div class="flex-container flex-3 row p-1">
+				<div class="flex-1 m-1 red wh-1"></div>
+				<div class="flex-1 m-1 green wh-1"></div>
+				<div class="flex-1 m-1 yellow wh-1"></div>
+			</div>
+			<div class="flex-container m-1 row">
+				<div class="flex-container flex-1 column m-1 red">
+					<div class="flex-1 m-1 red"><p class="p-1">Red</p></div>
+					<div class="flex-1 m-1 green"><p class="p-1">Green</p></div>	
+					<div class="flex-1 m-1 yellow"><p class="p-1">Yellow</p></div>
+				</div>
+
+				<div class="flex-container flex-1 column m-1 red">
+					<div class="flex-1 m-1 red"><p class="p-1">Red</p></div>
+					<div class="flex-1 m-1 green"><p class="p-1">Green</p></div>	
+					<div class="flex-1 m-1 yellow"><p class="p-1">Yellow</p></div>
+				</div>	
+			</div>
+			
+		</div>
+<!-- 
+		<div class="flex-container">
+				<h1>Justify Content</h1>
+		</div>
+
+		<div class="flex-container">
+				<h1>Align Items</h1>
+		</div>
+
+		<div class="flex-container">
+				<h1>Align Content</h1>
+		</div> -->
+	</div>
+
+	<!-- Keyboard -->
+	<div class="flex-container column red m-1">
+		<div class="flex-container width-100 height-100 row">
+			<div class="flex-container wh-1 m-1 border-radius box-shadow justify-content-center align-items-center white">Q</div>
+			<div class="flex-container wh-1 m-1 border-radius box-shadow justify-content-center align-items-center white">W</div>
+			<div class="flex-container wh-1 m-1 border-radius box-shadow justify-content-center align-items-center white">E</div>
+			<div class="flex-container wh-1 m-1 border-radius box-shadow justify-content-center align-items-center white">R</div>
+  
+			<div class="flex-container wh-1 m-1 border-radius box-shadow justify-content-center align-items-center white">T</div>
+			<div class="flex-container wh-1 m-1 border-radius box-shadow justify-content-center align-items-center white">Y</div>
+			<div class="flex-container wh-1 m-1 border-radius box-shadow justify-content-center align-items-center white">U</div>
+			<div class="flex-container wh-1 m-1 border-radius box-shadow justify-content-center align-items-center white">I</div>
+  
+			<div class="flex-container wh-1 m-1 border-radius box-shadow justify-content-center align-items-center white">O</div>
+			<div class="flex-container wh-1 m-1 border-radius box-shadow justify-content-center align-items-center white">P</div>
+			<div class="flex-container wh-1 m-1 border-radius box-shadow justify-content-center align-items-center white">{</div>
+			<div class="flex-container wh-1 m-1 border-radius box-shadow justify-content-center align-items-center white">}</div>
+
+			<div class="flex-container wh-1 m-1 border-radius box-shadow justify-content-center align-items-center white">|</div>
+
+		</div>
+	</div>
+</body>
+</html>
